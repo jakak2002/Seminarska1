@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      <SplitPane dividerPositions="0.5625" prefHeight="720.0" prefWidth="1280.0">
+         <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fx:id="slika00" fitHeight="240.0" fitWidth="240.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" rotate="90.0" AnchorPane.bottomAnchor="480.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="480.0" AnchorPane.topAnchor="0.0">
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="slika01" fitHeight="240.0" fitWidth="240.0" layoutX="238.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="480.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika02" fitHeight="240.0" fitWidth="240.0" layoutX="480.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="480.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika10" fitHeight="240.0" fitWidth="240.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="480.0" AnchorPane.topAnchor="240.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika11" fitHeight="240.0" fitWidth="240.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="240.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika12" fitHeight="240.0" fitWidth="240.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="240.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="240.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika20" fitHeight="240.0" fitWidth="240.0" layoutY="473.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="480.0" AnchorPane.topAnchor="480.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika21" fitHeight="240.0" fitWidth="240.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="240.0" AnchorPane.rightAnchor="240.0" AnchorPane.topAnchor="480.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <ImageView fx:id="slika22" fitHeight="240.0" fitWidth="240.0" layoutX="232.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="480.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="480.0">
+                     <image>
+                        <Image url="@slike/prazna.png" />
+                     </image></ImageView>
+                  <Circle fx:id="monster00" disable="true" fill="RED" layoutX="107.0" layoutY="120.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster01" fill="RED" layoutX="347.0" layoutY="120.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster02" fill="RED" layoutX="587.0" layoutY="120.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster10" fill="RED" layoutX="107.0" layoutY="360.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster11" fill="RED" layoutX="347.0" layoutY="360.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster12" fill="RED" layoutX="587.0" layoutY="360.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster20" fill="RED" layoutX="107.0" layoutY="587.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster21" fill="RED" layoutX="347.0" layoutY="587.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Circle fx:id="monster22" fill="RED" layoutX="587.0" layoutY="587.0" radius="13.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+                  <Rectangle fx:id="tre00" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="120.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre01" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="360.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre02" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="600.0" layoutY="105.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre10" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="120.0" layoutY="345.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre11" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="360.0" layoutY="345.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre12" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="600.0" layoutY="345.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre20" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="120.0" layoutY="572.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre21" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="360.0" layoutY="572.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <Rectangle fx:id="tre22" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="30.0" layoutX="600.0" layoutY="572.0" stroke="BLACK" strokeType="INSIDE" visible="false" width="30.0" />
+                  <ImageView fx:id="objpic" fitHeight="160.0" fitWidth="160.0" layoutX="280.0" layoutY="280.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@slike/obj.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="320.0" layoutY="320.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="320.0" AnchorPane.rightAnchor="320.0">
+                     <image>
+                        <Image url="@slike/dude.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="levelLabel" layoutX="195.0" layoutY="52.0" prefHeight="53.0" prefWidth="330.0" textAlignment="CENTER" wrapText="true">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane>
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c8c8c" height="270.0" layoutY="450.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="560.0" />
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#8c8c8c" height="450.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0" width="560.0" />
+                  <Button fx:id="runbu" layoutX="408.0" layoutY="410.0" mnemonicParsing="false" onAction="#fightrun" prefWidth="72.0" text="Run" />
+                  <Button fx:id="potbu" layoutX="326.0" layoutY="410.0" mnemonicParsing="false" onAction="#fightpot" prefWidth="72.0" text="Pot" />
+                  <Button fx:id="defbu" layoutX="244.0" layoutY="410.0" mnemonicParsing="false" onAction="#fightdef" prefWidth="72.0" text="Def" />
+                  <Button fx:id="heabu" layoutX="162.0" layoutY="410.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#fighthea" prefWidth="72.0" text="Hea" />
+                  <Button fx:id="attbu" layoutX="80.0" layoutY="410.0" mnemonicParsing="false" onAction="#fightatt" prefWidth="72.0" text="Att" />
+                  <Button fx:id="mapbutton" layoutX="414.0" layoutY="627.0" mnemonicParsing="false" onAction="#pressMapButton" text="Map">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="usebutton" layoutX="78.0" layoutY="627.0" mnemonicParsing="false" onAction="#use" text="Use">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="downb" layoutX="261.0" layoutY="600.0" mnemonicParsing="false" onAction="#down" text="v">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="rightb" layoutX="341.0" layoutY="556.0" mnemonicParsing="false" onAction="#right" text="&gt;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="upb" layoutX="259.0" layoutY="512.0" mnemonicParsing="false" onAction="#up" text="^">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="leftb" layoutX="177.0" layoutY="556.0" mnemonicParsing="false" onAction="#left" text="&lt;">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="label" layoutX="172.0" layoutY="473.0" prefHeight="17.0" prefWidth="229.0" textAlignment="CENTER">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="fightInfo" layoutX="191.0" layoutY="173.0" prefHeight="140.0" prefWidth="191.0" wrapText="true">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+                  <Label fx:id="StatusLabel" layoutX="179.0" layoutY="313.0" prefHeight="94.0" prefWidth="240.0" text="Life points: 400/400 Energy: 400/400" wrapText="true">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="MonsterLabel" layoutX="187.0" layoutY="51.0" text="Monster HP: 200/200">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
